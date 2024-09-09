@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_menu_item"
+        android:checked="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/historial_menu_item"
+        android:icon="@drawable/ic_baseline_list_alt_24"
+        android:title="Historial" />
+    <item
+        android:id="@+id/perfil_menu_item"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Perfil" />
+</menu>

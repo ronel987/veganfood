@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:orientation="vertical"
+    tools:context=".ui.activity.PedidoRealizadoActivity">
+
+    <ImageView
+        android:id="@+id/delivery_imagen"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="@dimen/screen_horizontal_spacing"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="24dp"
+        android:rotationY="180"
+        android:scaleType="centerCrop"
+        android:src="@drawable/delivery_man" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/pedido_exitoso_cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/delivery_imagen"
+        android:layout_marginHorizontal="@dimen/screen_horizontal_spacing"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pedido_realizado_exito"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="?attr/colorPrimary"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/pedido_realizado_info_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pedido_exitoso_cv"
+        android:layout_marginBottom="24dp"
+        android:text="@string/pedido_realizado_info"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption" />
+
+    <TextView
+        android:id="@+id/pedido_realizado_numero_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pedido_realizado_info_tv"
+        android:layout_marginHorizontal="@dimen/screen_horizontal_spacing"
+        android:text="@string/pedido_realizado_codigo"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/pedido_realizado_continuar_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="@dimen/screen_horizontal_spacing"
+        android:layout_marginBottom="@dimen/screen_vertical_spacing"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/pedido_realizado_continuar_btn"
+        app:icon="@drawable/ic_baseline_check_circle_outline_24"
+        app:iconGravity="textStart" />
+</RelativeLayout>

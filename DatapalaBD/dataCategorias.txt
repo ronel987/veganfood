@@ -1,0 +1,14 @@
+{
+        "_id" : ObjectId("6297963420d9c4a54dfae25d"),
+        "productos" : [
+                ObjectId("6297974920d9c4a54dfae268"),
+                ObjectId("6297983c20d9c4a54dfae276"),
+                ObjectId("6297988620d9c4a54dfae27e"),
+                ObjectId("629799fb20d9c4a54dfae285"),
+                ObjectId("62979a6220d9c4a54dfae28c"),
+                ObjectId("62979a9e20d9c4a54dfae291")
+        ],
+        "nombre" : "Pizza",
+        "fechaRegistro" : ISODate("2022-06-01T16:39:16.369Z"),
+        "__v" : 6
+}

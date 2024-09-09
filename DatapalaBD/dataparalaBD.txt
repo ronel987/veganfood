@@ -1,0 +1,72 @@
+[{
+        "_id" : ObjectId("6297974920d9c4a54dfae268"),
+        "categoria" : ObjectId("6297963420d9c4a54dfae25d"),
+        "nombre" : "Pizza Vegetariana",
+        "descripcion" : "La pizza vegetariana presenta los mismos quesos, condimentos y salsas que la pizza normal, aunque la carne se reemplaza con vegetales y sustitutos de la carne.",
+        "precio" : 23.95,
+        "stock" : 99,
+        "imagenUrl" : "https://dsnyk1xc1sxw4.cloudfront.net/media/catalog/product/p/r/productos_pizza-vegetariana_700x950.jpg",
+        "estado" : "activo",
+        "fechaRegistro" : ISODate("2022-06-01T16:43:53.245Z"),
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("6297983c20d9c4a54dfae276"),
+        "categoria" : ObjectId("6297963420d9c4a54dfae25d"),
+        "nombre" : "Pizza Mozzarella",
+        "descripcion" : "La pizza de mozzarella es la más clásica entre todas las recetas de pizzas. Es la que nos gusta a la mayoría. Es una receta compuesta por una masa baja y crocante con una cubierta de salsa de tomate, mozzarella, aceitunas y orégano.",
+        "precio" : 22.9,
+        "stock" : 99,
+        "imagenUrl" : "https://dsnyk1xc1sxw4.cloudfront.net/media/catalog/product/p/r/productos_pizza-mozarella_700x950.jpg",
+        "estado" : "activo",
+        "fechaRegistro" : ISODate("2022-06-01T16:47:56.931Z"),
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("6297988620d9c4a54dfae27e"),
+        "categoria" : ObjectId("6297963420d9c4a54dfae25d"),
+        "nombre" : "Pizza Pepperoni",
+        "descripcion" : "El pepperoni es una variedad de salami con pimiento de la cocina estadounidense. El pepperoni es característicamente suave, ligeramente ahumado y de color rojo brillante.​",
+        "precio" : 16.9,
+        "stock" : 99,
+        "imagenUrl" : "https://dsnyk1xc1sxw4.cloudfront.net/media/catalog/product/p/r/productos_pizza-pepperoni_700x950.jpg",
+        "estado" : "activo",
+        "fechaRegistro" : ISODate("2022-06-01T16:49:10.553Z"),
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("629799fb20d9c4a54dfae285"),
+        "categoria" : ObjectId("6297963420d9c4a54dfae25d"),
+        "nombre" : "Pizza Americana",
+        "descripcion" : "Generosa pizza estilo americano cuyo ingrediente principal es nuestro pan preparado de manera artesanal, salsa de tomate, queso mozzarella, rodajas de jamón y pepperoni.",
+        "precio" : 32.9,
+        "stock" : 99,
+        "imagenUrl" : "https://dsnyk1xc1sxw4.cloudfront.net/media/catalog/product/p/r/productos_pizza-americana_700x950.jpg",
+        "estado" : "activo",
+        "fechaRegistro" : ISODate("2022-06-01T16:55:23.202Z"),
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("62979a6220d9c4a54dfae28c"),
+        "categoria" : ObjectId("6297963420d9c4a54dfae25d"),
+        "nombre" : "Pizza Española",
+        "descripcion" : "Queso mozzarella, chorizo, cebolla blanca, aceitunas verdes, aceitunas negras, champiñones y salsa de ajo.",
+        "precio" : 22.9,
+        "stock" : 99,
+        "imagenUrl" : "https://dsnyk1xc1sxw4.cloudfront.net/media/catalog/product/p/r/productos_pizza-espa_ola_700x950.jpg",
+        "estado" : "activo",
+        "fechaRegistro" : ISODate("2022-06-01T16:57:06.807Z"),
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("62979a9e20d9c4a54dfae291"),
+        "categoria" : ObjectId("6297963420d9c4a54dfae25d"),
+        "nombre" : "Pizza Hawaiana",
+        "descripcion" : "La pizza hawaiana es una pizza que contiene una base de queso fundido y tomate que se aliñan con jamón y piña.​​ Algunas versiones de esta pizza incluyen tocino, gambas, cerezas, pimiento rojo, champiñón, cebollas o jalapeños.",
+        "precio" : 27.9,
+        "stock" : 99,
+        "imagenUrl" : "https://dsnyk1xc1sxw4.cloudfront.net/media/catalog/product/p/r/productos_pizza-hawaiana_700x950.jpg",
+        "estado" : "activo",
+        "fechaRegistro" : ISODate("2022-06-01T16:58:06.309Z"),
+        "__v" : 0
+}]

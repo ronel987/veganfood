@@ -1,0 +1,43 @@
+[
+  {
+    "nombre": "Pizza Vegetariana",
+    "precio": 23.95,
+    "imagenUrl": "https://dsnyk1xc1sxw4.cloudfront.net/media/catalog/product/p/r/productos_pizza-vegetariana_700x950.jpg"
+  },
+  {
+    "nombre": "Pizza Mozzarella",
+    "precio": 22.90,
+    "imagenUrl": "https://dsnyk1xc1sxw4.cloudfront.net/media/catalog/product/p/r/productos_pizza-mozarella_700x950.jpg"
+  },
+  {
+    "nombre": "Pizza Pepperoni",
+    "precio": 16.90,
+    "imagenUrl": "https://dsnyk1xc1sxw4.cloudfront.net/media/catalog/product/p/r/productos_pizza-pepperoni_700x950.jpg"
+  },
+  {
+    "nombre": "Pizza Americana",
+    "precio": 32.90,
+    "imagenUrl": "https://dsnyk1xc1sxw4.cloudfront.net/media/catalog/product/p/r/productos_pizza-americana_700x950.jpg"
+  },
+  {
+    "nombre": "Pizza Española",
+    "precio": 22.90,
+    "imagenUrl": "https://dsnyk1xc1sxw4.cloudfront.net/media/catalog/product/p/r/productos_pizza-espa_ola_700x950.jpg"
+  },
+  {
+    "nombre": "Pizza Hawaiana",
+    "precio": 27.90,
+    "imagenUrl": "https://dsnyk1xc1sxw4.cloudfront.net/media/catalog/product/p/r/productos_pizza-hawaiana_700x950.jpg"
+  }  
+]
+//desde Postman
+{
+    "categoria":"62c3adacac132cc0bccdbeb1",
+    "nombre":"Pizza Pepperoni",
+    "descripcion":"Tamaño familiar",
+    "precio":16.90,
+    "stock":160,
+    "imagenUrl": "https://dsnyk1xc1sxw4.cloudfront.net/media/catalog/product/p/r/productos_pizza-pepperoni_700x950.jpg"
+}
+
+

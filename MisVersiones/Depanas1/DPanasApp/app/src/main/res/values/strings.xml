@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Comida Veg</string>
+    <string name="API_URL">http://192.168.0.110:3000/api/v1/</string>
+    <string name="DATABASE_NAME">comidavegeta</string>
+    <string name="selected_items_template">%1$s selecionado(s)</string>
+    <string name="carrito_compras_title">Carrito</string>
+    <string name="carrito_compras_total">Total</string>
+    <string name="carrito_compras_proceder_pago_btn">Proceder a pagar</string>
+    <string name="item_producto_nombre">Producto</string>
+    <string name="item_producto_categoria">Categoria</string>
+    <string name="item_producto_descripcion"><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias animi consequuntur debitis deleniti explicabo fuga impedit maiores molestiae mollitia nesciunt officia perferendis, qui quisquam reprehenderit sed, vel veritatis voluptas?</div><div>At eos, eum explicabo facilis necessitatibus omnis? Atque aut beatae distinctio ducimus ex, fugit iste labore molestiae nobis, omnis pariatur perferendis quidem quisquam sapiente vel vero voluptates! Ducimus nam, pariatur?</div></string>
+    <string name="item_producto_sin_descripcion">Descripción no disponible.</string>
+    <string name="item_producto_precio">S/. 39.99</string>
+    <string name="item_producto_precio_template">S/. %1$s</string>
+    <string name="item_producto_cantidad">1</string>
+    <string name="agregar_al_carrito_btn">Agregar al carrito</string>
+    <string name="item_pedido_codigo">#13456789</string>
+    <string name="item_pedido_estado">RECIBIDO</string>
+    <string name="delete_items_dialog_title">¿Desea eliminar los items seleccionados?</string>
+    <string name="delete_items_dialog_message">Esta acción no se puede revertir.</string>
+
+    <string name="sign_in_login_with_google_btn">Ingresar con Google</string>
+
+    <string name="perfil_title">Mi perfil</string>
+    <string name="perfil_nombre">Nombre</string>
+    <string name="perfil_nombre_template">%1$s %2$s</string>
+    <string name="perfil_correo">Correo</string>
+    <string name="perfil_general_section">General</string>
+    <string name="modificar_perfil_title">Configuración de perfil</string>
+    <string name="modificar_perfil_body">Actualiza y modifica tu perfil</string>
+    <string name="logout_perfil_title">Cerrar sesión</string>
+    <string name="logout_perfil_body">Vuelve a iniciar sesión más tarde</string>
+
+    <string name="resumen_pedido_title">Completar pedido</string>
+    <string name="resumen_pedido_para">Entregado para</string>
+    <string name="resumen_pedido_direccion_title">Dirección de entrega</string>
+    <string name="resumen_pedido_cambiar_btn">Cambiar</string>
+    <string name="resumen_pedido_direccion_nombre">Casa</string>
+    <string name="resumen_pedido_direccion_detalles">Detalles de la dirección</string>
+    <string name="resumen_pedido_payment_method_title">Método de pago</string>
+    <string name="resumen_pedido_payment_method_name">EFECTIVO</string>
+    <string name="productos_total_title">Costo total de los productos</string>
+    <string name="delivery_total_title">Costo de entrega</string>
+    <string name="delivery_total">Gratis</string>
+    <string name="resumen_pedido_costo_total">Costo total</string>
+    <string name="realizar_pedido_btn">Realizar pedido</string>
+
+    <string name="pedido_realizado_exito">Pedido realizado con éxito</string>
+    <string name="pedido_realizado_info">Su orden ha sido recibida y será procesada en unos minutos</string>
+    <string name="pedido_realizado_codigo">Codigo de pedido: #123456789</string>
+    <string name="pedido_realizado_codigo_template">Codigo de pedido: %1$s</string>
+    <string name="pedido_realizado_continuar_btn">Continuar</string>
+
+    <string name="cliente_secret_preferences_name">cliente_secret_preferences</string>
+    <string name="preferences_cliente_key">access_token</string>
+    <string name="preferences_access_token_key">access_token</string>
+    <string name="preferences_refresh_token_key">refresh_token</string>
+
+    <string name="web_client_id">1009481200696-u49l68366mjf41421bgs25jbrj6uu5hh.apps.googleusercontent.com</string>
+
+</resources>

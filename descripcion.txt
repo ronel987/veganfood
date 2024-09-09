@@ -1,0 +1,8 @@
+BD:mongoDB: no relacional
+se abre con VScode, tenes q tener las librerias instaladas(reack, nodemodules, next,para mongo,bootstrap...)
+Llamas al terminal control ñ :se ejecuta con: npm run dev, se abre el browser y llamo a localhost:3000
+No es nec pero le configure con google la autenticacion OAuth pa la parte con android
+La BD en mongoDB se llama vegetariana(ver .env.local)
+
+
+ 

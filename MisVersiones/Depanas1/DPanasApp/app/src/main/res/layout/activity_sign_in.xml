@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:orientation="vertical"
+    tools:context=".ui.activity.SignInActivity">
+
+    <ImageView
+        android:id="@+id/emp_logo_imagen"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="@dimen/screen_horizontal_spacing"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="24dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/emp_logo"
+        android:translationX="-8dp" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/sign_in_title_cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emp_logo_imagen"
+        android:layout_marginHorizontal="@dimen/screen_horizontal_spacing"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="?attr/colorPrimary"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login_with_google_btn"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_in_title_cv"
+        android:layout_marginHorizontal="@dimen/screen_horizontal_spacing"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/sign_in_login_with_google_btn"
+        android:textColor="?attr/colorOnSurface"
+        app:icon="@drawable/ic_baseline_google_24"
+        app:iconGravity="textStart"
+        app:iconTint="@null" />
+</RelativeLayout>
